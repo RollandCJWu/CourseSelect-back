@@ -94,6 +94,31 @@ spring.datasource.username=your-username
 spring.datasource.password=your-password
 ```
 
+## 專案架構
+```
+.gitattributes
+.gitignore
+.mvn/
+.vscode/
+src/
+  main/
+    java/
+      com/
+        example/
+          courseapp/
+            config/
+            controllers/
+            entities/
+            repositories/
+    resources/
+      application.properties
+  test/
+    java/
+      com/
+        example/
+          courseapp/
+pom.xml
+```
 
 ## 已知問題
 POST 和 PUT 相關功能由於資料庫關聯原因無法使用
