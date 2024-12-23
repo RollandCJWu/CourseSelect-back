@@ -97,6 +97,7 @@ spring.datasource.password=your-password
 
 ## 已知問題
 POST 和 PUT 相關功能由於資料庫關聯原因無法使用
+由於前端網頁功能不全，請使用Postman或相關軟體測試
 
 ## API 端點
 ### 教師 (Teachers)
